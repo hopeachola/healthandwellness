@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+   <!-- Your other head content goes here-->
+    <style>
+      /*css to hide the logo */
+      .logo{
+         display: none;
+      }
+    </style>
+   <meta charset="UTF-8">
+   <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <!------- Remove the <title> tag or change its content -------->
+          <title>All Products</title>
+        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+    <head>
+    <body>
+      <div class="container"
+           <div class="navbar">
+           <div class="logo">
+            <img src="images/logo.jpeg" width="130px">
+         <!---- Rest of your website content goes here----> 
+         </div>
+           <nav>
+              <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+              </ul>
+           </nav>
+           <img src= "images/Free Shopping Cart Icon.png" width="30px" height="30px">
+           <img src="images/Exclusive 10.png" class="menu-icon"  
+           onclick="menutoggle()">
+       </div>
+    </div>
+
+     <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <options>Default Sorting</options>
+                <options>Sort by price</options>
+                <options>Sort by popularity</options>
+            </select>
+        </div>
+
+      <div class="row">
+       <div class="col-4">
+           <img src="images/Aloe%20Vera.jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Aloe Vera Gel</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+           </div>
+           <p>Ksh3291.00</p>
+       </div>
+   </div> <!-- Close the <div class="row"> tag here -->
+   <div class="row"> <!-- Move this <div class="row"> tag to wrap the next product -->
+       <div class="col-4">
+           <img src="images/Berry%20Nectar.jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Berry Nectar</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+           </div>
+           <p>Ksh3291.00</p>
+       </div>
+   </div> <!-- Close the <div class="row"> tag here -->
+   <div class="row"> <!-- Move this <div class="row"> tag to wrap the next product -->
+       <div class="col-4">
+           <img src="images/Aloe%20Peaches.jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Bits N Peaches</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+           </div>
+           <p>Ksh3291.00</p>
+       </div>
+<div class="small-container">
+   <div class="row">
+       <div class="col-4">
+           <img src="images/Forever%20Calcium%20(1).jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Calcium</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i> <!-- Fix the missing closing tag for <i> -->
+           </div>
+           <p>Ksh3900.00</p>
+       </div>
+   </div> <!-- Close the <div class="row"> tag here -->
+   <div class="row"> <!-- Move this <div class="row"> tag to wrap the next product -->
+       <div class="col-4">
+           <img src="images/Keep%20your%20system%20strong.jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Immublend</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i> <!-- Fix the missing closing tag for <i> -->
+           </div>
+           <p>Ksh3883.00</p>
+       </div>
+   </div> <!-- Close the <div class="row"> tag here -->
+   <div class="row"> <!-- Move this <div class="row"> tag to wrap the next product -->
+       <div class="col-4">
+           <img src="images/image%201.jpeg"> <!-- Make sure the image path is correct and has the correct file extension -->
+           <h4>Forever Multimaca</h4>
+           <div class="rating">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star-o"></i>
+           </div>
+           <p>Ksh3632</p>
+       </div>
+       </div>
+
+         <div class="page-btn">
+             <span>1</span>
+             <span>2</span>
+             <span>3</span>
+             <span>4</span>
+             <span>&#8594;</span>
+             
+         </div>
+
+       </div>
+<!-------- footer--------->
+ 
+     <div class="footer">
+        <div class="container">
+            <div class="row">
+                 <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App</p>
+                    <div class="app-logo">
+                        <img src="images/Exclusive 9.png" width="20px">
+                    </div>
+                 </div>
+                 <div class="footer-col-2">
+                    <img src="images/Exclusive 8.jpeg" width="3px">
+                    <p>Our purpose Is To makes sure optimal vitality is reached</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Be a Distributor</li>
+                </ul>
+        </div>
+     </div>
+     <div class="footer-col-4">
+        <h3>Follow Us</h3>
+        <ul>
+            <li>Fceboook</li>
+            <li>Instagram</li>
+        </ul>
+    </div>
+        </div>
+     <!---------js for toggle menu------->
+     <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+     </script>
+
+    </body>
+    </html>
